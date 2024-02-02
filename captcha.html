@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login Page</title>
+<link rel="stylesheet" href="captcha.css"> 
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="login-card">
+    <div class="kiku">
+      <div class="image">
+        <img src="https://nijatech.keka.com/files/3af5ac6e-6e73-44cb-b1ee-e028609df8cd/orglogo/2fdc9f1110764576aca88ddc2228bfae.jpg" alt="keka-logo-black">
+      </div>
+    <h1 id="ram">Login to Keka</h1>
+    <div class="form">
+        <input type="password"placeholder="password"id="input">
+    </div>
+    <div class="two"><!-- attaching two captcha divs-->
+        <div class="captchA"></div><!--automatic captcha generator-->
+        <div class="refresh-icon"><i class="fas fa-sync-alt"></i></i></div>
+        <div class="captchB">
+          <input type="text"placeholder="Captcha"id="captchB">
+        </div><!--captcha box-->
+    </div>
+    
+    <div class="button">
+     <a href="index1.html">  <button class="ram">Login</button></a> 
+    </div>
+    <!-- forget password link-->
+    <div class="forget">
+      <a href="">Forget password?</a>
+    </div>
+        
+        <div class="super">
+            <div class="U">
+                <img src="https://cdn.kekastatic.net/login/v/M165_2023.12.08.1/images/app-store.svg" alt="">
+              <!--  <a href=""><img src="//cdn.kekastatic.net/login/v/M165_2023.12.08.1/images/app-store.svg"></a>-->
+            </div>
+                <div class="B">
+                   <img src="https://cdn.kekastatic.net/login/v/M165_2023.12.08.1/images/google-play.svg" alt="">
+                </div>
+            </div>
+           
+        </div>
+        <div class="V">
+            <div class="C"><a href="https://apps.apple.com/in/app/keka-hr/id1448024119"></a><img src="https://cdn.kekastatic.net/login/v/M165_2023.12.08.1/images/keka-logo-black.svg"></a></div>
+        
+        <div class="D">
+            <div class="b"> <h2 id="sent">By logging you agree to Keka<a href="https://www.keka.com/terms-and-conditions">Terms of use</a></h2>
+                <h1 id="send"><a href="https://www.keka.com/terms-and-conditions">and privacy policy</a></h1>
+        </div>
+    </div>
+        </div>
+  </div>
+  <script src="captcha.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

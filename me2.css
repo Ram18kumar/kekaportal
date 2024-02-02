@@ -1,0 +1,99 @@
+.ammu{
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+    box-sizing: border-box;
+  } 
+  .ammu1{
+    display: flex;
+    /* border-bottom: .5px solid lightgrey; */
+  }
+  .ammu1 svg{
+    position: absolute;
+    right: 0;
+   margin: 20px;
+   cursor: pointer;
+  }
+  .ammu1 h1{
+    margin: 20px;
+  }
+  .ammu2{
+    box-sizing: border-box; 
+    border-radius: 5px;
+    border: 1px solid lightgrey; 
+    width: 90%;
+    height: 80px;
+    padding: 10px; 
+    margin-left: 20px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+.ammu2b{
+    box-sizing: border-box;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    font-size: medium;
+}
+.ammu3{
+    box-sizing: border-box; 
+    border-radius: 5px;
+    border: 1px solid lightgrey;  
+    width: 90%;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.ammu4{
+    box-sizing: border-box; 
+    border-radius: 5px;
+    border: 1px solid lightgrey;  
+    width: 90%;
+    height: 90px;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+.ammu5{
+    box-sizing: border-box; 
+    border-radius: 5px;
+    border: 1px solid lightgrey;  
+    width: 90%;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    right: 0;
+}
+footer {
+   position: absolute;
+   bottom: 0;
+   width: 30px;
+   height: 30px;
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 30px;
+   border-top: 1px solid lightgrey;
+}
+
+.btn2{
+    background-color: blue;
+    border-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin-left: 380px;
+
+  
+}
+
+
+/* for calendar styling  */
+/* .ammu2c{
+    position: fixed;
+} */

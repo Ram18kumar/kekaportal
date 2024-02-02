@@ -1,0 +1,210 @@
+  [
+    
+    {
+        "username":"SG0108",
+        "userpassword":"12345"   
+    },
+    {
+        "status": true,
+        "message": {
+            "userImg": {
+                "imgName": "4728",
+                "imgUrl": "https://mobapp.nijatech.com/public/4728.png"
+            },
+            "_id": "6565de664985f65478cc56d9",
+            "nsId": 4728,
+            "employeeCode": "SG0108",
+            "title": "Ms",
+            "firstName": "Jaclyn",
+            "middleName": "Aquino",
+            "lastName": "Lopez",
+            "shortName": "Jaclyn A Lopez",
+            "gender": "Female",
+            "dateOfBirth": "25/05/1978",
+            "department": "Human Resource/Admin",
+            "designation": "HR Supervisor Process",
+            "subsidiary": "Solas Marine Services Co LLC, DXB",
+            "subdepartment": "BA",
+            "supervisor": "Raghavendra N Nayak",
+            "linemanager": "NJT  LINE MANAGER",
+            "hod": "Raghavendra N Nayak",
+            "workregioncountry": "UAE",
+            "employeejobstatus": "Confirmed",
+            "joblocation": "DUBAI",
+            "grade": "G3",
+            "employeecategory": "Office Staff",
+            "maritalStatus": "Single",
+            "dateOfJoining": "16/11/2006",
+            "nationality": "Philippines",
+            "phone": "+97110501088578",
+            "emergencyContactPersonName": "",
+            "emergencyContactPersonPhoneNumber": "",
+            "passportNumber": "P1058041B",
+            "passportNumberExpiryDate": "02/10/2023",
+            "nationalId": "784-1978-9817408-7",
+            "nationalIdExpiryDate": "31/10/2023",
+            "mobileemail": "jaclyn@solasmarine.com",
+            "mobileusername": "SG0108",
+            "mobilepassword": "12345",
+            "mobileaccess": true,
+            "source": "Net Suite",
+            "syncStatus": 0,
+            "contacts": [
+                {
+                    "address": "123",
+                    "address1": "23/8 abc",
+                    "address2": "",
+                    "city": "Manila",
+                    "statedisplayname": "",
+                    "country": "AE",
+                    "zip_Code": "",
+                    "phone": "",
+                    "internal_id": "4728",
+                    "first_name": "Jaclyn",
+                    "default_billing": true,
+                    "_id": "6565de664985f65478cc56da"
+                },
+                {
+                    "address": "23/5",
+                    "address1": "23/8",
+                    "address2": "",
+                    "city": "abc",
+                    "statedisplayname": "",
+                    "country": "AE",
+                    "zip_Code": "641",
+                    "phone": "",
+                    "internal_id": "4728",
+                    "first_name": "Jaclyn",
+                    "default_billing": false,
+                    "_id": "6565de664985f65478cc56db"
+                }
+            ],
+            "dependents": [
+                {
+                    "name": "ABCS",
+                    "dateOfBirth": "10/12/2021",
+                    "relationship": "Husband",
+                    "passportNumber": "12122",
+                    "passportNumberExpiryDate": "08/12/2023",
+                    "nationalId": "123456FGR",
+                    "nationalIdExpiryDate": "08/12/2023",
+                    "insuranceEligibility": "False",
+                    "airTicketEligibility": "true",
+                    "_id": "6565de664985f65478cc56dc"
+                },
+                {
+                    "name": "XYZ",
+                    "dateOfBirth": "06/12/2022",
+                    "relationship": "Daughter",
+                    "passportNumber": "12344",
+                    "passportNumberExpiryDate": "08/12/2023",
+                    "nationalId": "1234",
+                    "nationalIdExpiryDate": "08/12/2023",
+                    "insuranceEligibility": "True",
+                    "airTicketEligibility": "False",
+                    "_id": "6565de664985f65478cc56dd"
+                }
+            ],
+            "documents": [
+                {
+                    "documentName": "Document1",
+                    "documentNumber": "12334",
+                    "issuedBy": "Dasildhar",
+                    "issuedDate": "11/12/2023",
+                    "expiryDate": "08/12/2023",
+                    "attachment": "https://mobapp.nijatech.com/public/74a702ff-d020-4cb2-9e5a-1216bcf5de447336240560596841700.jpg",
+                    "remarks": "TEST",
+                    "_id": "6565de664985f65478cc56de"
+                },
+                {
+                    "documentName": "DOC2",
+                    "documentNumber": "1234",
+                    "issuedBy": "KARTHi",
+                    "issuedDate": "12/12/2023",
+                    "expiryDate": "12/12/2023",
+                    "attachment": "https://mobapp.nijatech.com/public/44ac16cc-41d8-4cb2-840c-93567fd298ca3198291131645090372.jpg",
+                    "remarks": "testttt",
+                    "_id": "6565de664985f65478cc56df"
+                },
+                {
+                    "documentName": "CCNA",
+                    "documentNumber": "12F6z4A",
+                    "issuedBy": "CCNA AUTHORITY ",
+                    "issuedDate": "11/12/2023",
+                    "expiryDate": "11/12/2023",
+                    "attachment": "",
+                    "remarks": "Testing",
+                    "_id": "65772132979acce3d9d16b6e"
+                }
+            ],
+            "workExperience": [
+                {
+                    "company": "INDUS",
+                    "jobTitle": "MOB APP",
+                    "fromDate": "01/09/2015",
+                    "toDate": "08/12/2023",
+                    "comments": "TESING",
+                    "_id": "656f217d0bd1d5e931281df9"
+                },
+                {
+                    "company": "NIJA",
+                    "jobTitle": "MOB APP",
+                    "fromDate": "01/12/2021",
+                    "toDate": "08/12/2023",
+                    "comments": "GOING TO TEST",
+                    "_id": "6572d7f37325d5862bef7e73"
+                }
+            ],
+            "skills": [
+                {
+                    "skillName": "CCNS",
+                    "skill_code": "CCNS",
+                    "certificate": "GRN/27857",
+                    "yearOfExperience": "2",
+                    "_id": "6565de664985f65478cc56e2"
+                },
+                {
+                    "skillName": "Test",
+                    "skill_code": "OT",
+                    "certificate": "2013",
+                    "yearOfExperience": "1",
+                    "_id": "65714c9418690044b9919153"
+                },
+                {
+                    "skillName": ".Net",
+                    "skill_code": "1",
+                    "certificate": "12F34353",
+                    "yearOfExperience": "1",
+                    "_id": "65714e1db44dd27999d9a558"
+                },
+                {
+                    "skillName": "CCNA",
+                    "skill_code": "ccna12",
+                    "certificate": "ABC123F",
+                    "yearOfExperience": "3",
+                    "_id": "65714e6db44dd27999d9a589"
+                }
+            ],
+            "education": [
+                {
+                    "education": "Bachelor's Degree",
+                    "college_university": "SNS",
+                    "passing_year": "01/01/2024",
+                    "_id": "6565de664985f65478cc56e4"
+                },
+                {
+                    "education": "Diploma",
+                    "college_university": "Sri Ragavendra Polytechnic College ",
+                    "passing_year": "05/05/2010",
+                    "_id": "6593b58886cd309575662ebc"
+                }
+            ],
+            "salary": [],
+            "createdAt": "2023-11-28T12:34:46.285Z",
+            "updatedAt": "2024-01-02T07:04:40.634Z",
+            "__v": 0
+        },
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtb2JpbGV1c2VybmFtZSI6IlNHMDEwOCIsIm1vYmlsZXBhc3N3b3JkIjoiMTIzNDUiLCJpYXQiOjE3MDUwMzUwOTR9.gA4hKv_YYSAxdp9l3zOoDMPGjKY3piveGbSoFRNCOUs"
+    }
+    
+    ]

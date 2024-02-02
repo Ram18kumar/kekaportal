@@ -1,0 +1,880 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Keka home page</title>
+    <link rel="stylesheet"href="style1.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="header"><!--Header starting Div-->
+        <div class="part1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57D9h7O5OuSENGqcAvnVFq-bPrvzA8TwkCWTHwco_4Q&s" alt=""id="logo">
+            <div id="ram">Nija tech</div>
+          <div class="form">  <input type="text" placeholder="search employees or actions(Ex.Apply leave ,Attendance Approvals)" id="form">
+            
+          </input>
+        </div>
+
+        </div><!-- part 1 is for logo name and form-->
+        <div class="part2">
+             <h1 class="air">Ramkumar S</h1>
+             <!-- <div class="user-dropdown"> -->
+              <!-- <div class="userdrop"> -->
+              <i class="fa-solid fa-caret-down dropdown-toggle" aria-hidden="true"onclick="openuser()"></i>
+              <!-- <div class="user">
+                <div class="user1">View user</div>
+                <div class="user2">Change user</div>
+                <div class="user3">Sign out</div>
+              </div>
+            </div> -->
+            
+             <img src="https://t4.ftcdn.net/jpg/01/42/20/17/360_F_142201762_qMCuIAolgpz4NbF5T5m66KQJzYzrEbUv.jpg" alt=""class="eu">
+
+        </div><!--part 2 is for  profile-->
+    </div><!--header ending div-->
+
+    <section class="compare"><!--compare start-->
+      <nav >
+        <a href="#"onclick="INDIA()"><i class="fas fa-home"></i> Home</a>
+        <a href="me.html"onclick="PAK()"><i class="fa-solid fa-user"></i> <span id="meme">Me</span>
+          <ul id="submenu">
+            <li><a href="">Leave</a></li>
+            <li><a href="">Attendance</a></li>
+            <li><a href="">Performance</a></li>
+            <li><a href="">Expense and Travel</a></li>
+            <li><a href="">Apps</a></li>
+           
+          </ul>
+        </a>
+        <a href="#"onclick="AUS()"><i class="fa-solid fa-inbox"></i> Inbox</a>
+        <a href="#"onclick="NZ()"><i class="fa-duotone fa-people-group"></i><span id="like">My team</span></a>
+        <a href="#"onclick="SA()"><i class="fa-sharp fa-thin fa-indian-rupee-sign"></i><span id="poster"> My finance</span></a>
+        <a href="#"><i class="fa-solid fa-sitemap"></i><span id="reels">Org</span> </a>
+      </nav>
+      
+                                                                      <section class="INDIA"id="INDIA">
+
+      
+     <div class="abap">
+      <div class="AAA"id="home">
+      <div class="left"id="home"><!-- left -->
+        
+        <h1 class="why"id="home">Quick Access</h1>
+        <div class="inbox"id="home"> <!--PENDING TASK -->
+            <h1 class="when"id="home">Inbox</h1>
+            <div class="message"> <!--this div is for  viewing any pending task remaining-->
+           <div class="ice"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgVFhUYGBgaGBgYGBgYGBgSGBgVGBgZGRgYGBocIS4lHB4rHxgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISGjEjISQxMTQ0NDQ0NDE/NDQxNTE0MTQ/NDE0NDQxMTExNDQ0NzY0NDU0MTQ0NDQxNTExNDE0Pf/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAADBAECBQAGB//EADkQAAIBAgQEBAUEAAUEAwAAAAECAAMRBBIhMUFRYXEFIjKBE5GxwfAGQqHRFCNi4fEHFjOCUqKy/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECBAMF/8QAKhEBAQACAQQBAgQHAAAAAAAAAAECEQMEEiExQRNRFDJhcQUVIiOB0eH/2gAMAwEAAhEDEQA/APo3g48rdvvK4kaGG8JXyHsPqZSuJs+UYQaCP4b1MOxiGE2j9L191koNiV4xB1mm4usQcREXwPqPaKY1tTGaBsT2imKlUthqfGavh27GJU1sOw/mPYDRGMlGZ4gdPcmZ5oNmK5TcC5A1059po45CxCga2/CZp0R5RzsBftG1jBwDaHo4PzE9Mwue4mXicHYsyjU2JA2JHHvNFW8qGKlJhLMRFqD5anuJo1kBbSLhBylJGlX9J7RLAP5CDwP1hKlW6HmBFsBqjdZPgCx7eYDpF6rbCTiHu47Wgm9QlG94f6BM3HtdzNagtlHaYtVruT1kg4rpHPDhqe0WYaRrAb+0oap+qUxK6X6yw394Wot7iRGemtQdLmLEXqjpcxlaLq4YW635QVAXdm9hKo150redA7wxf8s+30lHH0MPgRan7/aCtqexgAwvGOqbMh9ojhtzG3OgPUQH1iddLGN5tYLEreSISz2i9dwT7wjmLW80qnP8O5Gg36xylSITLxnYdvKO0PIoAoAdzuZCU7DeHaDMhEFoJq4tlH/Es8w6/i9BWKmvSDA2ILgEG+xud4tk9vXDiufqW/s2qcoUmI/6jwy3vXp6bgMCfkL39pr4fGK6KyMGVgCpHEHYxMpfVXPhzx85Syfssy3BHOJYSoUex9/7jbvF3eaefbsDFHz3EJgUzOOQkJU11mj4a179DJtLjqHqxspPSYKatNrGtZGmNRiMjPtGMHvAvtD4b1L7/SUMGFfgYIwoOgkqF8S9gYBFyrDYgXIHLWCrHSVQbzpE6A3hv/H7mAvrGKPoEWqbyRAKXqMZqemKjR40fSe0qnM23YS9UeWAptdVPSMHVZBj1d5CJxk1PUYailyJQzhtvnD3gMN+7vCO9tTMtWeVyZn4zxOlTZUZwGYhVUXZix1AsOlz2BPAzwP6l/Xz3K4ZlVLWzlbux5rfRR7H6GeWwXilZqlJi/mDZVdyAyM7Ehi7XyqGYnKBa1xsZ45c0+PLt4ug5s8blJqSb8/MfVz41f0mkfNlUBySzMCUS6ggNwvtcGfIPH/EGeu7ZQhYkstwQrAlWHlAB8ytrvpqTPRYrxDFu7q2JUix2Vct1BR6iZRc7NYjLoOB0nkK+AuXcMy3JKoyl6jObHtkJN8xb9w0N543kmV1bvR0XUfh+TeVslicGxd1TJmLMqgiy3JNgNdB7z65h/FqdJKasj0roD8MhWNNRdRnykgC6kd+s8J4B4LTVKOIqYhwzm6LRBBp1lB8jnUs18oFio1uTYia3iOJqGjnouRSZsr0W/y3QhvPdGa7sXOrKBfW9pO7sm49uu67Hmykl3J/j29pgfEUrA5MwYWLI6tTdQfSSja2NjY7GGftPlX6g8Vy1KNSkQjZScqAoUBsQxJNySCVII/byIE2/wBPfrGpUqpSqhCraZx5CCATmbWx212nthzS63NbTDo8suL6uNl8bs9V7IiavhC2De0y6i/WbPh/o/kz3cXJ6RjankI6zPw4h8S3qHaDoDSaeAj7RyimqmJvtNLD+gSUDaXYArrKVd5Km6mVAlS0XrG5jLG4i7CFUtOlp0BpB5F7RapvGv2r2ilSIhapo0ZU6HtAYkaiGpnT2hR8Nqg6ExqnsYpgvQe8ZpbQjKq+oxnCVLHXbaK4g+cy49Jl+Fab+r2H8E/3M3xfGZEYgXbKbD7mMHE2CE8Qw9xY/aed8aHxadRbZroRbnpoJnXh08fHuy30+S+N4im1dilgLkkABQDmOlhoLC22l+AhPDlDrUsy5lAYBiFza6gMdAdRNrEeA0Xp4lwAKoVa1O5ZL00ALoEBIuVzWY63I6zzlGmtP4bgi16iuSQTZgSh1NswPlB7acTw5eZ49/6d/wDNM+Lj7Nefv+jfxL5afkVVaq4QFrMFF+JN/Kb/AMtzmlT/AE4lRkd2qh7KGZmVbWUbKota4tm30HO8y/DGHxKVF1clahZrsMqqBpoANC21+m97z6DhMOlRrEAX3NrHpqJ6dNhLLcvLn4McLjcspt838UWph674ZWBAdGXOiknMisNDoW1t1I9o94p4s7U1pEJdStS63Q5yDcHWwBOU5LAAjjvKf9Q8On+LZQVVslPKWNyUym5bW9rqRc9Ox8zTGZtapBC+pfMBe1xoCCLaWPGYywktk9ODOS5WQPxLG/EfNY39LacczMD2IYW7Ta/SmHy4gO9wELAbtaqNAbAHY314EDWYq5Acqg1GLBmZlZVQbKbDX1E2A49J6TDAZWp3qKlRAPM7FbZtH83mKi+tjraN9uvDt4uqznH9OafScHjFqLmRw63tcC9zbUG40+s3KbZbdre0+Y/9PEcVmex+Eyst23zpkNr6+W7P0vmt1+jpUzG3Abzqwu48sp3Y71pSruYSkNIN+MLT2npXMl9o9QPlSJNsY0reRJKJr7yMOeEis2gkUDrKiENrjkYNxLYk2fuLyt7wKzpM6FNOPKO0UcRx9hFXERAsUugMigYWuvki+HlDnh/pIjNMQGA/cOscVdJmjFxo88vT2nY4eadTmlUq0iyG3A3Hf/fb3nzT9T+OVEqulGv5NDdbEqxBzJmtwIv79J9ZwqeVrifEv1f+n6mFqFV1S/lY3BysPLe2h2I7gzx5u7Wo+r/Dc+Luv1Pj1PuwkZi2hN+5LHmOvGbVD/DoGf4WdWRERGK1Q9anlLvUS16dlZwMvBdmN559UqKcwVrjzC3tqPmIwajv5Q7KoYOyg3QvbKGHAtYWvwtacv5Xp1uX4jPHj45u3fpp1MK9dDiMzCmwDO6qiuhQ5AwXMo0ZVGbQaHXQmaVLx2vTC2JbMrC4AcAqpVTdb5wzKdRzHA3GJSxzhGo52KMcxQmy57gh7AWuCBw4Whsd4gpKJTpKotfK1qgao6hGbOxDKLAAa8T0jHOz05+o6Pn6bHu3LPV07xhKtcu7I5JFJ2daZZ8rgrSCErcIzF7AEg6AkldfOUKhUoyqXyMM5uSGXS6EdPN8+k9ZU8dqLTorRDo9MKucNTu1NC4RDdPMArm2YeUi5DEAzJx/hrMpNJQyAl2CutRgu4B2JsLcBop0m+/HxI5Pw/LjZ9TGzf3jUwX6lqU8zYcJSDMGOVFZrAABSzAtl6X5y1P9R4jOK7ulRkT4Y+ImYGnle4soAzXa+Y++gnnKblbAbngNewtzns/0t4GtQo9VxYMxanlOyi92bYre9wN7d5iTK5ePT7/Lj0n0PMktniyedvVfp0stCmXADuudwFCC7EsdFAAuWJsOQnq6SZU19R1PTkJm+D02qMWYWW4Yi3C5Kqew+gm1iBpOzGafE6jLWsPt7JtCJKNLIZtzL8DGEPkWAEPT9A7yVKozaTqJ1lHk0pUW8QGit7QVJ4ziluh6azOotEDU6VvOgPVNhFnEaq7RdhJBxW6GJUpo0l0MQIsxlgNhNHmpMmgfNNNWiqzMcPNOp7S2LHmg3OkqHMP6O5mH+r/C1rplNrgWv0P9EA+xm/SWwUe8S8QbzTN8vTC3HKWPhNbBNRL0mUaOVuMpcaEm63DZPLe9iNeszmrXAKnXTy6KdOIBn0/xvwT4zkq+U+lt9R+21u/HlPMf9gH91Zm1v5FCWP8A7EgTlvHblfDt4OfLgzuUm9vLrVLEDLa+h3vy0tx1l2pOr/5qMmVredWVgRcbMNANdRzE9Zj/ANJthqZektWpVuGpMqs7ofh5gboLAq6mx52mJU8Cx7salWhVqOwsxqOhvy1LArx0sJnsvmSOrLr5ycmMy/LLu2/eembVZgLnTmBuCecRxIPqB4gML2vroTz4H3nof+3cSB/43HQtTP8AIJvFMX4ViUuP8NUysCCQBUO1tAt7cNTM442X06+t5uLPisyy3ufv5NeA4Zmy5svlJsyqLuragFgL6XI5EW5T3vheEayrbzOcgG3kFix7bL7mZ/6Dw1qbK6gMcoKsCGsNiQw01HD/AGntfAkBdqpFx6E6KN2Hc3nRx4+Nvk4ZdvHufDbwmGCIFHDc8zxMpiI4pBGkUqie0cNtt3SbCckswkLKCLGMOPIe8XWMUD5WEIo6ytMQwlQNYQZluh7TITebDGyHtMdZIot50redKrVqwLCGq8IIiSMr0YpiU1vHKMFiBfSX5CiHWOJVtFQsoxMUXdsxvJVbsB1nIthD4NLsW5QpkertM7FasZopxmZVF2Mi4+2D4hTy+cHUb9pRqml/ce+sf8RoXBHMEe8zsNhanwkLIb21tqQL3BI7WkdtkuMrVwVUGijHkb9wxvM3EYgEmM4DDt8EKwKm72zabuxBt2MpU8Obp221kY7ZKzhX4WjFGnsecsfB2OpIUDjuT7RulhDcC4IHtGjxT2ewCjha/flLJWCWAG5sANIAUyBf3P3Ma8MpZjnPDQCVbJjju+mph6ZUa7neDqrGm1EXaWOO3ZFxKiFqQYlFhGKB1PaLwtI+YfKAVZDCEYSjwglYeQ9pjgzYqnyTHYayRU3kTp0uhs1IMwlSUMkRelBYkcYalA4iX5C95WdeReKqznhH8MmVZn0hc3mtJQLgZlNuZo4l7LM2CKsFYWYdraTsS9muNiPtIqCK4p/JfkdZmurH+rRmq+kl21v0H0idSp5RDs2oHRfpErdx8CYhrKBz1lMMdb8gTB4lrtblIz5Vb5QY4+DVNriP4ajkUD3PcxTwqhexPDX3j53ljw5svPbB6Z0g2EmmdZaV4EaywIjmITSJyqvJBlFMuIDbNseYg3kqfKPlKMYQV/RMl95rU9VImZXXWIAzpM6VW1U3lTL1JUSIJTgcTsYdBFcQxvaSewqTB3vCFCZdKdpao1IWEbDxVYRZEVxIzaRYYcxhhOEBV6BtaZNUgEq2x0M9DlMyPGcKSC4GvH+5nJ78GUmWr8sjFOUQg/t481OxmkjXZD/p/kfgmKlcOhVuTKedtiPv3E0sNU9N+Gn58pmO3PGyavtzVbXMJQGdrcF1PVjw9oiHJfJwGp6nYD6zZw9BlUZR1735yybY5LOPH9abo1SvaPb6iY7Ow9SHuI1gMUNr6fSbcF+7RUaiWIkZgZc6yMg1RpM9xNRkidagZVJ3hA0itTIgQSID1Ig6fl5LJaKI8aSrp5vY/wByi1F7HWCxdPiJWoZelUHpMITyyI78DrOjYaW5tfeEWnBo5Et8U9JFGCyjoDvKmv0gmeQSaYEiwEp8SVLyoJcSrt1lQZNoFA0srS3w5GWQVqVwguRptp1ieJ8UVQLLe++bl7Q+KosVsNdZg4mgNTY78+M1jJfbq4OPDL8zCxbBKjkehjmHGxO4/iFo+IrfQ/8AM0K2AUKWPA22FzfrCLglVsoX9qnYXub3mvp4/FfV/t2ff/gng1LO7MwIG/0AH8mb9Okq6Am3uZkYekVB8xsOG28Zppxud7b2jtji5+KZ5b34a1N+Rv0ksoO6iBw4t8hGJiuDKTG6iiry0hLdZWQWhgUMeci/WUDSLiBLntF3S/CFaDJMAeUDhBu/CWepF3qwqUxFpY1BuIAvqZQ1RyjYZ+OOcmJ/EXlOja6bqyGaQXkgyIqZEsziAZ4ReXy6QAeHTvAsqzis687PAtadlnAybwqCkxfHKqoLAAMdSbbCbNSoFUsdgJ5HxOqXJJ3P5aS3T34Md5b+AnxTuoFwBubDU2PH5Q2FrEhmJ8wsL9htB08LZVU+ptT0W+nzP0lfC1zOw4Fz8rx3V37mrppeHYjMozD1Gx4a20Pz+s1sIq24GYuCwxyEceHea2FUra+8u68ObzvVPSM0m8hnlcCbyp6Tg95VjCJBMgkymYzi0CxMhmlTf84zmEANQiK1LRtlEGya9PtIpHzcIKqp95ovS6fm8UqD3krUKazoX/1/mdGla61TLmrM1a0MHJlYGaqTIzSh0lM0BhD1hbxUNLhoDSvJDiL6yM3OA4jcZfPFBUlTiDwgk2D4lWv5RsN+8z8PhczZjsI8KV9TL1Fsp7SadOGXbNRmg3LP3t2A0keE0wCO8YYAKx6QeANmH5wlevd4pnDPZrRpW0Mzc9m95pKOPMQxllNjo+kmAQ2IjQErmznncUVesqxt2kOOsqpBO8MLiTeCDy6uIF9NJcwJPWEDAQIZZRl0jIta4gXEAZEXqUbxsWH9yQgMisz/AAh6SZqfCHOdC7YlNOcZRxtaCRIRFhBWS+x+cEVtvDqOcI9LMOsgTh8Ol9eUqKVt4ZTaIDhZR7iWBvL2EqFH6j+JCqLXt/P9xooOX3gXqcCOm3PtC7VVgTaDxZ0tLFwe/vvw3nEA9e8rcy+5KqP8t/lBYUeYdvtH6qDKVtcHlx5zOFXI3oY8rC5PaRuZyzQzpZjNDDC6j5RewJzW1tex+9jDIfz6Ss5ZDhLwjtYW9oNnlc/MQ87dodxtc/7SMPTBJN7a/wAyzuo0PuRwvFRihmIBHDaQMVUtexFoOjYKB97nWVFSctG3E/OEFzDnIzDnKfB6zinWUM0HHOc5HPnF1UjrLinfUwJJHOEouOfP/aC+H1kBSJA9nP8A8vrOimedAUVpddDA4pgHIuOveDFXXeDZ5YZWiK1OsKKnWA21jvKBRABzLF4DE68WDy3xNZQxeVv+Xgg1/wAvODwLkcfvBMP9Pylg5Pz/AJkFpBZR0PvKfDHKQ19/f5Sygc/+YFTR6fYyQP617ziw4f8AEnl+aQbdm1+vOSH34cNOXKDZ/wA+k4GUcU11HsNPaKPhVuT6T/pvb3ve8aL7wbC8AaURbVif4v8AKMo/4P5gkpExhEA79IBVU2nNblKyBTJgFVR0+cIV0gVUDcy2fpILWG3HvIKdPmZ2ssAOcAXwz/p/+0mG05To2MDH+t+4+kWX+v8A9CdOgHWGX7Tp0Ai/nzkj7zp0Dl2H5zl129/tOnSglPb3M4bDsZ06BHAfnAwn9H7zp0CnP84yh4/nATp0gsn3P2ktJnQANue8kfnynTpRYyF39p06Aw2351kJOnSCw+x+kOdvzkJ06ACFpzp0gsZWdOhUzp06B//Z" alt=""></div><!--this div is for logo-->
+           <div class="goodjob"><!--this div is to make h1 and h2 in column-->
+           <h1>Good job</h1>
+           <h2>You have no pending tasks</h2></div>
+          </div>
+        </div>
+        <div class="holidays"id="home">
+           <div class="hariram"><h1 class="which"id="home">Holidays</h1> <a href="#" onclick="openPopup()">View All</a></div> 
+            <div class="holh1">
+              <h1>New year</h1>
+              <h2>Mon Jan 1 2023</h2>
+            </div>
+          </div>
+          <div class="popup"id="popup"id="home"><!--this is for popup-->
+            <div class="top"id="home"><!--this is for top like holiday-->
+              <div class="abi"id="home">
+                  <div class="jeeva">Holidays</div>
+                  <div class="sree">2024</div>
+              </div>
+              <div class="naya"onclick="closePopup()"id="home">
+                <i class="fa-solid fa-xmark"></i>
+              </div><!--this is for  int icon-->
+
+            </div>
+           <div class="mahilini"id="home"><h1>14january</h1><p>Pongal</p></div>
+           <div class="mahilini"id="home"><h1> 26 january</h1><p>Republic Day</p></div>
+           <div class="mahilini"id="home"><h1>14 february</h1><p>valentines Day</p></div>
+           <div class="mahilini"id="home"><h1>14 April</h1><p>Tamil new year</p></div>
+            </div>
+          
+        <div class="onleavetdy"id="home">
+            <h1 class="how"id="home">On leave today</h1>
+            <div class="FIG">
+            <figure>
+              <img src="https://t4.ftcdn.net/jpg/01/42/20/17/360_F_142201762_qMCuIAolgpz4NbF5T5m66KQJzYzrEbUv.jpg" alt="">
+              <figcaption style="color: black;">Ramkumar</figcaption>
+            </figure>
+            <figure >
+              <img src="data:image/jpeg;base64,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" alt="">
+               <figcaption id="ennadi"style="color: black;">Deepa</figcaption>
+            </figure>
+        </div>
+        </div>
+        <div class="workingremotely"id="home">
+            <h1 class="often"id="home" style="font-size: medium;color: black;">Working remotely</h1>
+            <p style="color: blue;">No one is working remotely today</p>
+        </div>
+        
+        
+        <!-- for date time updation-->
+        <div class="datetime">
+            <div class="ek">
+              <div class="dow">
+              <div class="ot"> <h1>Time Today</h1></div> 
+                <div class="sath"><h1>Dec 27 2023 wed</h1></div>
+              </div>
+            
+              <div class="che">
+                <a href="#"><h1>View All</h1> </a>
+              </div>
+            </div>
+            <h1 id="currenttime">Currenttime</h1>
+            <div class="theen">
+              <h1>10:16:00 AM</h1>
+              <div class="char"><!--for two buttons-->
+                   <div class="btn1">
+                    <button class="btna">check out</button>
+                   </div>
+                   <div class="btn2">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      other
+                    </button>
+                   </div>
+              </div>
+            </div>
+
+        </div>
+
+      </div>
+
+     
+      
+      <div class="Right"id="home">
+        <div class="yuvi">
+          <div class="organisation"><h1 style="font-size: x-small;">Organisation</h1></div>
+          <div class="proposalnetsuite">
+            <p>Professional</p><p> Service(PS)-</p><p>Net</p><p> suite</p></div>
+        </div>
+        
+        <div class="kiku">
+            <div class="postpose"><h1 class="u">post</h1>
+            <h1 class="v">praise</h1>
+            </div>
+            <div class="place">
+                <input type="text"placeholder="write your post here"id="text">
+            </div>
+        </div>
+        <div class="deepa">
+          
+          <div class="announcement"> <i class="fa-solid fa-period"></i><h1 style="font-size: x-small;">Announcement</h1></div>
+          <div class="announcement"> <i class="fa-solid fa-period"></i><h1 style="font-size: x-small;">O birthdays</h1></div>
+          <div class="announcement"> <i class="fa-solid fa-period"></i><h1 style="font-size: x-small;">0 Work anniversaries</h1></div>
+          <div class="announcement"> <i class="fa-solid fa-period"></i><h1 style="font-size: x-small;">0 New joinees</h1></div>
+       
+        </div>
+        <div class="santhosh">
+
+        </div>
+        <div class="prathap">
+          
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>  
+                                                            </section><!--HOME PAGE END-->   
+                                                  <section class="WESTBENGAL"id="WESTBENGAL"><!--WESTBENGAL START-->
+       <img id="profess" src="https://mobapp.nijatech.com/public/4728.png" alt="">
+       <div class="WESTBENGALBOX"><!--WESTBENGAL BOX START-->
+           <div class="mam"id="mam">  <h1 id="firstname"> </h1><h1 id="middlename"> </h1><h1 id="lastname"> </h1></div>
+             <div class="WESTBENGALBOX1">
+               <div class="westbengal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                  <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                </svg><h1 style="font-size: smaller;padding-left: 5px;"id="jobloc">Kovilpatti</h1>
+               </div>
+               <div class="westbengal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                </svg>
+                <h1 style="font-size: smaller;color: skyblue;cursor: pointer;padding-left: 10px;"id="mobileemail">Karthi@nijatech.com</h1>
+               </div>
+               <div class="westbengal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                </svg>
+                <h1 style="font-size: smaller;padding-left: 10px;"id="phno">9172737389</h1>
+               </div>
+               <div class="westbengal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-badge" viewBox="0 0 16 16">
+                  <path d="M6.5 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                  <path d="M4.5 0A2.5 2.5 0 0 0 2 2.5V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2.5A2.5 2.5 0 0 0 11.5 0zM3 2.5A1.5 1.5 0 0 1 4.5 1h7A1.5 1.5 0 0 1 13 2.5v10.795a4.2 4.2 0 0 0-.776-.492C11.392 12.387 10.063 12 8 12s-3.392.387-4.224.803a4.2 4.2 0 0 0-.776.492z"/>
+                </svg>
+                <h1 style="font-size: smaller;color: skyblue;cursor: pointer;padding-left: 10px;">ID Card</h1>
+               </div>
+             </div><!--WESTBENGALBOX1 END-->
+           <div class="WESTBENGALBOX2">
+            <div class="westbengal1 ">
+                <h1 style="font-size: x-small;color: grey;">JOB TITLE</h1>
+                <h1 style="font-size: x-small;color: black;"id="ding">Mobile App Developer</h1>
+
+             </div>
+             <div class="westbengal1">
+              <h1 style="font-size: x-small;color: grey;">DEPARTMENT</h1>
+              <h1 style="font-size: x-small;color: black;"id="dept">Professioanal service (PS)</h1>
+
+             </div>
+             <div class="westbengal1">
+              <h1 style="font-size: x-small;color: rgb(128, 128,128);">BUISNESS UNIT</h1>
+              <h1 style="font-size: x-small;color: black;">Oracle net suite</h1>
+
+             </div>
+             <div class="westbengal1">
+              <h1 style="font-size: x-small;color: grey;">DOTTED LINE MANAGER</h1>
+              <h1 style="font-size: x-small;color:skyblue;"id="linemanager"></h1></div>
+        
+             <div class="westbengal1">
+              <h1 style="font-size: x-small;color: grey;">REPORTING TO</h1>
+              <h1 style="font-size: x-small;color: black;"id="reporting">VANITHA LAKSHMI</h1>
+
+             </div>  
+             <div class="westbengal1">
+              <h1 style="font-size: x-small;color: grey;">EMP NO</h1>
+              <h1 style="font-size: x-small;color: black;"id="empno">NI002</h1>
+
+             </div>  
+             <div class="westbengal1"></div> 
+            <button class="btton">Action</button>
+            
+          </div>  
+          <!-- <div class="malai">
+              <h1 style="font-size: small;">ABOUT</h1>
+              <h1 style="font-size: small;">PROFILE</h1>
+              <h1 style="font-size: small;">BUISNESS UNIT</h1>
+              <h1 style="font-size: small;">DOCUMENTS</h1>
+              <h1 style="font-size: small;">ASSESTS</h1>
+          </div> -->
+        
+            </div> <!-- WESTBENGALBOX2 END -->
+          <div class="UP">
+            <div class="div1">Summary</div>
+            <div class="div2">Timeline</div>
+            <div class="div3">WellActivity</div>
+          </div>
+          <section class="delhi">   <!--this one is for -->
+            <div class="delhi1"><!--delhi1 start-->
+         <div class="delhi2">    <h1 style="font-size: small;">Primary Details</h1>
+             <h1 style="font-size: small;color: skyblue;cursor: pointer;">Edit</h1></div>
+             <div class="delhi3"><!--delhi3 start-->
+                <div class="delhi4">
+                  <h1 style="font-size: x-small;color: grey;font-weight: lighter;">FIRST NAME</h1>
+                  <h1 style="font-size: x-small;color: black;font-weight: bold;"id="delhia">Ramkumar</h1>
+                </div>
+                <div class="delhi5">
+                  <h1 style="font-size: x-small;color: grey;font-weight: lighter;">LAST NAME</h1>
+                  <h1 style="font-size: x-small;color: black;font-weight: bold;"id="delhib">Ramkumar</h1>
+                </div>
+                <div class="delhi5">
+                  <h1 style="font-size: x-small;color: grey;font-weight: lighter;">GENDER</h1>
+                  <h1 style="font-size: x-small;color: black;font-weight: bold;"id="delhic">Male</h1>
+                </div>
+                <div class="delhi5">
+                  <h1 style="font-size: x-small;color: grey;font-weight: lighter;">MARITAL STATUS</h1>
+                  <h1 style="font-size: x-small;color: black;font-weight: bold;"id="delhid">Married</h1>
+                </div>
+                <div class="delhi5">
+                  <h1 style="font-size: x-small;color: grey;font-weight: lighter;">MARRIAGE DATE</h1>
+                  <h1 style="font-size: x-small;color: black;font-weight: bold;"id="delhie">-</h1>
+                </div>
+                <div class="delhi5">
+                  <h1 style="font-size: x-small;color: grey;font-weight: lighter;">NATIONALITY</h1>
+                  <h1 style="font-size: x-small;color: black;font-weight: bold;"id="delhif">-Not set-</h1>
+                </div>
+                
+               
+
+
+             </div><!--delhi3 end-->
+             <div class="delhi6"><!--delhi6 start-->
+              <div class="delhi5">
+                <h1 style="font-size: x-small;color: grey;font-weight: lighter;">MIDDLENAME</h1>
+                <h1 style="font-size: x-small;color: black;font-weight: bold;"id="delhig">Ramkumar</h1>
+              </div>
+              <div class="delhi5">
+                <h1 style="font-size: x-small;color: grey;font-weight: lighter;">DISPLAY NAME</h1>
+                <h1 style="font-size: x-small;color: black;font-weight: bold;"id="delhih">Male</h1>
+              </div>
+              <div class="delhi5">
+                <h1 style="font-size: x-small;color: grey;font-weight: lighter;">DATE OF BIRTH</h1>
+                <h1 style="font-size: x-small;color: black;font-weight: bold;"id="delhii">Married</h1>
+              </div>
+              <div class="delhi5">
+                <h1 style="font-size: x-small;color: grey;font-weight: lighter;">BLOOD GROUP</h1>
+                <h1 style="font-size: x-small;color: black;font-weight: bold;"id="delhij">O+(O Positive)</h1>
+              </div>
+              <div class="delhi5">
+                <h1 style="font-size: x-small;color: grey;font-weight: lighter;">PHYSICALLY HANDICAPPED</h1>
+                <h1 style="font-size: x-small;color: black;font-weight: bold;"id="delhik">-Not set-</h1>
+              </div>
+             </div><!--delhi6 end-->
+            </div><!--delhi1 end-->
+            <div class="haryana1"><!--haryana1 start-->
+              <div class="delhi2">    <h1 style="font-size: small;">Primary Details</h1>
+                <h1 style="font-size: small;color: skyblue;cursor: pointer;">Edit</h1></div>
+                <div class="delhi3"><!--delhi3 start-->
+                   <div class="delhi4">
+                     <h1 style="font-size: x-small;color: grey;font-weight: lighter;">WORK EMAIL</h1>
+                     <h1 style="font-size: x-small;color: black;font-weight: bold;color: skyblue;cursor: pointer;"id="haryanaa">Ramkumar</h1>
+                   </div>
+                   <div class="delhi5">
+                     <h1 style="font-size: x-small;color: grey;font-weight: lighter;">MOBILE PHONE</h1>
+                     <h1 style="font-size: x-small;color: black;font-weight: bold;"id="haryanab">9750045024</h1>
+                   </div>
+                   <div class="delhi5">
+                     <h1 style="font-size: x-small;color: grey;font-weight: lighter;">RESIDENCE PHONE</h1>
+                     <h1 style="font-size: x-small;color: black;font-weight: bold;"id="haryanac">Male</h1>
+                   </div>
+                   <div class="delhi5">
+                     <h1 style="font-size: x-small;color: grey;font-weight: lighter;">EMERGENCY CONTACT PERSON</h1>
+                     <h1 style="font-size: x-small;color: black;font-weight: bold;"id="haryanad">-</h1>
+                   </div>
+                 </div><!--delhi3 end-->
+                <div class="delhi7"><!--delhi6 start-->
+                 <div class="delhi5">
+                   <h1 style="font-size: x-small;color: grey;font-weight: lighter;">PERSONAL EMAIL</h1>
+                   <h1 style="font-size: x-small;color: black;font-weight: bold;"id="haryanag">Ramkumar</h1>
+                 </div>
+                 <div class="delhi5">
+                   <h1 style="font-size: x-small;color: grey;font-weight: lighter;">WORK PHONE</h1>
+                   <h1 style="font-size: x-small;color: black;font-weight: bold;"id="haryanah">Male</h1>
+                 </div>
+                 <div class="delhi5">
+                   <h1 style="font-size: x-small;color: grey;font-weight: lighter;">SKYPE</h1>
+                   <h1 style="font-size: x-small;color: black;font-weight: bold;"id="haryanai">Married</h1>
+                 </div>
+                 <div class="delhi5">
+                   <h1 style="font-size: x-small;color: grey;font-weight: lighter;">EMERGENCY CONTACT NUMBER</h1>
+                   <h1 style="font-size: x-small;color: black;font-weight: bold;"id="haryanaj">04-08-2018</h1>
+                 </div>
+                 
+                </div><!--delhi6 end-->
+           
+            </div><!--haryana1 end-->
+          </section><!--delhi section end-->
+            <section class="RAJASTHAN"><!--RAJASTHAN START-->
+              <div class="rajasthan1"><!--rajasthan1 start-->
+                  <header>
+                    <h1 style="font-size: small;"id="addresses">Addresses</h1>
+                    <h1 style="font-size: small;color: skyblue;cursor: pointer;">Edit</h1>
+                  </header>
+                  <div class="rajasthan1A">
+                  <div class="rajasthan1a">
+                    <h1 style="font-size: x-small;color: grey;font-weight: lighter;">CURRENT ADDRESS</h1>
+                    <h1 style="font-size: x-small;color: black;;"><b>fxyucyudcyud</b></h1>
+                    <h1 style="font-size: x-small;color: black;;"><b>fxyucyudcyud</b></h1>
+                    <h1 style="font-size: x-small;color: black;"><b>fxyucyudcyud</b></h1>
+                  </div>
+                  <div class="rajasthan1b">
+                    <h1 style="font-size: x-small;color: grey;font-weight: lighter;">CURRENT ADDRESS</h1>
+                    <h1 style="font-size: x-small;color: black;;"><b>fxyucyudcyud</b></h1>
+                    <h1 style="font-size: x-small;color: black;;"><b>fxyucyudcyud</b></h1>
+                    <h1 style="font-size: x-small;color: black;"><b>fxyucyudcyud</b></h1>
+                  </div>
+                </div>
+              </div> <!--rajasthan1 end-->
+              <div class="rajasthan2"><!--rajasthan1 start-->
+                <header>
+                  <h1 style="font-size: small;">Relations</h1>
+                  <h1 style="font-size: small;color: skyblue;cursor: pointer;">Edit</h1>
+                </header>
+                <div class="rajasthan2A">
+                <div class="rajasthan2a">
+                  <h1 style="font-size: x-small;color: grey;font-weight: lighter;">SPOUSE</h1>
+                  <h1 style="font-size: x-small;color: black;;"><b>fxyucyudcyud</b></h1>
+                  <h1 style="font-size: x-small;color: black;;"><b>fxyucyudcyud</b></h1>
+                  <h1 style="font-size: x-small;color: black;"><b>fxyucyudcyud</b></h1>
+                  <h1 style="font-size: x-small;color: black;"><b>fxyucyudcyud</b></h1>
+                </div>
+                <div class="rajasthan2b">
+                  <h1 style="font-size: x-small;color: grey;font-weight: lighter;">CHILD</h1>
+                  <h1 style="font-size: x-small;color: black;;"><b>fxyucyudcyud</b></h1>
+                  <h1 style="font-size: x-small;color: black;;"><b>fxyucyudcyud</b></h1>
+                  <h1 style="font-size: x-small;color: black;"><b>fxyucyudcyud</b></h1>
+                </div>
+              </div>
+            </div> <!--rajasthan1 end-->
+            </section><!--RAJASTHAN END-->
+        
+          
+       </div> <!--WESTBENGAL BOXEND-->                                        
+      
+     
+         
+      
+      
+      </section> <!--WESTBENGAL END-->                                         
+           <!--MEPAGE SECTION-->      <section class="mepage"><!--me page starting-->    <!--MEPAGE SECTION--> 
+            
+           
+               
+
+  
+    </section>
+      <!--MEPAGE SECTION-->      <section class="mepage"><!--me page starting-->    <!--MEPAGE SECTION--> 
+
+                                          <!--MY FINANCE PAGE-->
+                                 <section class="SA"id="SA"><!--SA PAGE START-->
+                  
+                                  <div class="kkr1"><!--This div is for header-->
+                                    <h1 style="font-size: medium;font-weight: lighter;cursor: pointer;"onclick="open11()">SUMMARY</h1>
+                                    <h1 style="font-size: medium;font-weight: lighter;cursor: pointer;"onclick="open12()">MY TAX</h1>
+                                    <h1 style="font-size: medium;font-weight: lighter;cursor: pointer;"onclick="open13()">MANAGE TAX</h1>
+                                    <h1 style="font-size: medium;font-weight: lighter;"onclick="open14()">LOANS</h1>
+                                  
+                    
+                    
+                                </div><!--header end-->
+                                <section class="myfinance1"><!--myfinance1 start-->
+           <div class="FINANCE"><!--FINANACE START-->
+                   <div class="ps1"><strong>Payroll summary</strong></div>
+                   <div class="ps2">
+                    <p style="font-size: xx-small;color: grey;padding-top: 18px;">LAST PROCESSED CYCLE</p>
+                    <h1 style="font-size: small;font-weight: lighter;padding-bottom: 12px;"><strong>(01Dec-31Dec)</strong></h1>
+                   </div>
+                   <div class="ps3">
+                    <p style="font-size: xx-small;color: grey;padding-top: 18px;">WORKING DAYS</p>
+                    <h1 style="font-size: small;font-weight: lighter;">31</h1>
+                   </div>
+                   <div class="ps4">
+                    <p style="font-size: xx-small;color: grey;padding-top: 18px;">LOSS OF PAY</p>
+                    <h1 style="font-size: small;font-weight: lighter;">0</h1>
+                   </div>
+                   <div class="ps5">
+                    <p style="font-size: xx-small;color: grey;padding-top: 18px;"> PAY SLIP</p>
+                    <a href="#">Pay slip</a>
+                   </div>
+
+            
+
+           </div><!--FINANCE END-->
+           <section class="ofz"><!--ofz start-->
+            <div class="avva">
+              <div class="singam1">
+                Payment Information
+              </div>
+             <h1 style="font-size: xx-small;color: grey;margin-left: 20px;margin-top: 20px;">SALARY PAYMENT MODE</h1>
+             <h1 style="font-size: x-small;margin-left: 20px;margin-bottom: 10px;">Bank Transfer</h1>
+             <h1 style="font-size: medium;margin-left: 20px;padding-top: 10px;">Bank Information</h1>
+             <div class="singamab">
+              <div class="singam1a">
+             <h1 style="font-size: xx-small;color: grey;margin-left: 20px;margin-top: 40px;">BANK</h1>
+             <h1 style="font-size: x-small;margin-left: 20px;margin-bottom: 10px;">Axis Bank</h1>
+             <h1 style="font-size: xx-small;color: grey;margin-left: 20px;margin-top: 40px;">IFSC CODE</h1>
+             <h1 style="font-size: x-small;margin-left: 20px;margin-bottom: 10px;">UTIB0002672</h1></div>
+             <div class="singam2a">
+             <h1 style="font-size: xx-small;color: grey;margin-left: 20px;margin-top: 40px;">ACCOUNT NUMBER</h1>
+             <h1 style="font-size: x-small;margin-left: 20px;margin-bottom: 10px;">923010031128509</h1>
+             <h1 style="font-size: xx-small;color: grey;margin-left: 20px;margin-top: 40px;">NAME OF THE ACCOUNT</h1>
+             <h1 style="font-size: x-small;margin-left: 20px;margin-bottom: 10px;">Sathyalakshmi Chandran</h1></div>
+              <div class="singam2"></div></div>
+
+            </div>
+            <div class="pova">
+              <div class="singam1">
+                Identity Information
+              </div>
+              <div class="pan">
+                <div class="card1">
+                  <div class="carda">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/255px-Flag_of_India.svg.png" alt="">
+                    <h1 style="font-size: small;"><b>Pan card</b></h1>
+                    <div class="verified">VERIFIED</div>
+                  </div>
+                  <div class="cardb"> 
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWimTruc061p2xUwU3A1iADSuz3KpvPv20MhsWAqDfFg&s" alt="">
+                    <a href="#">1file(s)</a>
+                  </div>
+                  <div class="singamab">
+                    <div class="singam1a">
+                   <h1 style="font-size: xx-small;color: grey;margin-left: 20px;margin-top: 40px;">BANK</h1>
+                   <div class="dot">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                      <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                      <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                      <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                      <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                      <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"/>
+                      <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"/>
+                    </svg>
+                   </div>
+                   
+                   <h1 style="font-size: xx-small;color: grey;margin-left: 20px;margin-top: 40px;">DATE OF BIRTH</h1>
+                   <h1 style="font-size: x-small;margin-left: 20px;margin-bottom: 10px;">13 Dec,1991</h1></div>
+                   <div class="singam2aa">
+                   <h1 style="font-size: xx-small;color: grey;margin-left: 20px;margin-top: 40px;">NAME</h1>
+                   <h1 style="font-size: x-small;margin-left: 20px;margin-bottom: 10px;">SATHYA LAKSHMI</h1>
+                   <h1 style="font-size: xx-small;color: grey;margin-left: 20px;margin-top: 40px;">PARENTS NAME</h1>
+                   <h1 style="font-size: x-small;margin-left: 20px;margin-bottom: 10px;">CHANDRAN</h1></div>
+                 
+                </div><!--card1 end-->
+                <h1 style="font-size: medium;margin-left: 18px;margin-top: 20px;">Photo ID</h1>
+                <div class="card2"></div>
+                <div class="carda">
+                  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/255px-Flag_of_India.svg.png" alt="">
+                  <h1 style="font-size: small;"><b>Aadhar card</b></h1>
+                  <div class="verified">VERIFIED</div>
+                </div>
+                <div class="cardbb"> 
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWimTruc061p2xUwU3A1iADSuz3KpvPv20MhsWAqDfFg&s" alt="">
+                  <a href="#">2file(s)</a>
+                </div>
+                <div class="mancity"><!--haaland start-->
+                    <div class="haaland">
+                      <h1 style="font-size: xx-small;color: grey;margin-left: 20px">AADHAR NUMBER</h1>
+                      <div class="goal"><!--goal for eye icons-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                          <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                          <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                          <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                          <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                          <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"/>
+                          <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"/>
+                        </svg>
+                      </div><!--goal end-->
+                    </div>
+                   <div class="alvarez">
+                    <h1 style="font-size: xx-small;color: grey;margin-left: 20px;margin-top: 40px;">DATE OF BIRTH</h1>
+                   <h1 style="font-size: x-small;margin-left: 20px;margin-bottom: 10px;">13 Dec,1991</h1>
+                   </div>
+                </div><!--haaland end-->
+                  
+                  
+            </div>
+          </section><!--ofz end-->
+                                              </section><!--my finance1 end-->
+
+
+          <section class="myfinance2"><!--my finance2 start-->
+                         <div class="header11"><!--header11 start-->
+                          <h1 style="font-size: medium;font-weight: lighter;cursor: pointer;"onclick="open21()">My Salary</h1>
+                          <h1 style="font-size: medium;font-weight: lighter;cursor: pointer;margin-left: 20px;"onclick="open22()">Pay Slips</h1>
+                          <h1 style="font-size: medium;font-weight: lighter;cursor: pointer;margin-left: 20px"onclick="open23()">Income Tax</h1>
+                          
+                           
+                         </div><!--header11 end-->
+          <h1 style="font-size: medium;margin-left: 20px;margin-top: 20px;"id="svg11">Pay Slips<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+            
+            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+          </svg></h1>
+          <p style="font-size: small;color: gray;margin-left: 20px;">Here you can manage all keka generated payslips for applicable years.</p>
+          <div class="dropdown11" onclick="myFunction()"><!--dropdown11 start-->
+            <h1 style="font-size: small;">Year2023</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+              <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+            </svg>
+          </div><!--dropdown11 end-->
+          <div class="download"><!--download start-->
+            <h1 style="font-size: medium;color: skyblue;">December</h1><h1 style="font-size: medium;color: skyblue;padding-left: 5px;">2023</h1>
+
+             <h1 style="font-size: medium;color: skyblue;padding-left: 5px;">Pay Slip</h1>
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+              <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+              <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+            </svg>
+          </div><!--download end-->
+            <div class="dropdownans"id="dropdownans"><!--dropdown ans start-->
+                <div class="kutty"><h1>PAYSLIPS</h1></div>
+                <div class="kutty1"id="kuttya"><h1>Dec 2023</h1></div>
+                <div class="kutty1"id="kuttyb"><h1>Nov 2023</h1></div>
+                <div class="kutty1"><h1>Oct 2023</h1></div>
+                <div class="kutty1"><h1>Sep 2023</h1></div>
+                <div class="kutty1"><h1>Aug 2023</h1></div>
+                <div class="kutty1"><h1>Jul 2023</h1></div>
+                <div class="kutty1"><h1>Jun 2023</h1></div>
+                <div class="kutty1"><h1>May 2023</h1></div>
+                <div class="kutty1"><h1>Apr 2023</h1></div>
+                <div class="kutty1"><h1>Mar 2023</h1></div>
+                <div class="kutty1"><h1>Feb 2023</h1></div>
+                <div class="kutty1"><h1>Jan 2023</h1></div>
+            </div><!--dropdown ans end-->
+ 
+
+
+          </section><!--myfinance2 end-->
+          <div class="originalps"><!--originalps for paycard start-->
+              <div class="headerpaycard">
+                <h1 style="font-size: small;color: white;">December 2023</h1>
+              </div>
+              <div class="paycard"><!--paycard start-->
+                <div class="sad">
+                   <h1 style="font-size: medium;"><b>PAYSLIP</b></h1>
+                   <h1 style="font-size: medium;color: grey;"id="sad">DECEMBER 2023</h1></div>
+                   <p style="font-size: small;color: grey;margin-left: 40px;">NIJA TECHNOLOGIES PVT LTD</p>
+                   <p style="font-size: small;color: grey;margin-left: 40px;">NO:78/132,(KARYA COWORKING</p>
+                   <p style="font-size: small;color: grey;margin-left: 40px;">SPACE),DR RADHAKRISHNAN SALAI</p>
+                   <p style="font-size: small;color: grey;margin-left: 40px;">MYLAPORE,CHENNAI TAMILNADU 600</p>
+                   <p style="font-size: small;color: grey;margin-left: 40px;">004</p>
+                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57D9h7O5OuSENGqcAvnVFq-bPrvzA8TwkCWTHwco_4Q&s" alt=""id="sudha">
+                   <h1 style="font-size: medium;margin-left: 40px;padding-bottom: 20px;"id="rahul"><b>SATHYA LAKSHMI</b></h1>
+                   
+                  <div class="waga1">
+                    <div class="waga1a">
+                      <h1 style="font-size: small;color: grey;">Employee Number</h1>
+                      <h2 style="font-size: small;"><b>NI009</b></h2>
+                    </div>
+                    <div class="waga1b">
+                      <h1 style="font-size: small;color: grey;">Employee Number</h1>
+                      <h2 style="font-size: small;"><b>NI009</b></h2>
+                    </div>
+                    <div class="waga1c">
+                      <h1 style="font-size: small;color: grey;">Employee Number</h1>
+                      <h2 style="font-size: small;"><b>NI009</b></h2>
+                    </div>
+                    <div class="waga1d">
+                      <h1 style="font-size: small;color: grey;">Employee Number</h1>
+                      <h2 style="font-size: small;"><b>Professional Service(Ps)</b></h2>
+                      <h2 style="font-size: small;"><b>NetSuite</b></h2>
+                    </div>
+                  </div><!--waga1 end-->
+              <div class="waga2"><!--waga2 start-->
+                <div class="waga2a">
+                <h1 style="font-size: small;color: grey;">SubDepartment</h1>
+                <h2 style="font-size: small;"><b>N/A</b></h2></div>
+                <div class="waga2b">
+                  <h1 style="font-size: small;color: grey;">Designation</h1>
+                  <h2 style="font-size: small;"><b>Jr.Functional Consultant</b></h2>
+                </div>
+                <div class="waga2c">
+                  <h1 style="font-size: small;color: grey;">Location</h1>
+                  <h2 style="font-size: small;"><b>Kovilpatti</b></h2>
+                </div>
+                <div class="waga2d">
+                  <h1 style="font-size: small;color: grey;">Aadhar Number</h1>
+                  <h2 style="font-size: small;"><b>9217952507136</b></h2>
+                </div>
+                
+              </div><!--waga2 end-->
+              <div class="waga3">
+                <div class="waga3a">
+                  <h1 style="font-size: small;color: grey;">Paymentmode</h1>
+                  <h2 style="font-size: small;"><b>BankTransfer</b></h2>
+                </div>
+                <div class="waga3b">
+                  <h1 style="font-size: small;color: grey;">Bank</h1>
+                <h2 style="font-size: small;"><b>Axix Bank</b></h2>
+                </div>
+                <div class="waga3c">
+                  <h1 style="font-size: small;color: grey;">Bank IFSC</h1>
+                  <h2 style="font-size: small;"><b>UTIB0002672</b></h2>
+                </div>
+                <div class="waga3d">
+                  <h1 style="font-size: small;color: grey;">BankAccount</h1>
+                  <h2 style="font-size: small;"><b>923010031128509</b></h2>
+                </div>
+              </div>
+              <div class="waga4"><!--waga4 start-->
+                    <div class="waga4a">
+                      <h1 style="font-size: small;color: grey;">PAN</h1>
+                  <h2 style="font-size: small;"><b>GGCPS5032N</b></h2>
+                    </div>
+                    <div class="waga4b">
+                      <h1 style="font-size: small;color: grey;">UAN</h1>
+                  <h2 style="font-size: small;"><b>10194572449</b></h2>
+                    </div>
+                    <div class="waga4c">
+                      <h1 style="font-size: small;color: grey;">PF Number</h1>
+                  <h2 style="font-size: small;"><b>TNMAS25191270000010030</b></h2>
+                    </div>
+                    <div class="waga4d">
+                      <h1 style="font-size: small;color: grey;">ESI Number</h1>
+                  <h2 style="font-size: small;"><b>5134490964</b></h2>
+                    </div>
+              </div><!--waga4 ene-->
+              <h1 style="font-size: medium;margin-left: 40px;padding-bottom: 20px;margin-top: 30px;"id="rahul"><b>SALARY DETAILS</b></h1>
+              <div class="wage5"><!--wage 5 start-->
+                  <div class="wage5a">
+                    <h1 style="font-size: small;color: grey;">Actual Payable Days</h1>
+                    <h2 style="font-size: small;"><b>31.0</b></h2>
+                  </div>
+                  <div class="wage5b">
+                    <h1 style="font-size: small;color: grey;">Total Working Days</h1>
+                    <h2 style="font-size: small;"><b>31.0</b></h2>
+                  </div>
+                  <div class="wage5c">
+                    <h1 style="font-size: small;color: grey;">Loss Of Pay Days</h1>
+                    <h2 style="font-size: small;"><b>0.0</b></h2>
+                  </div>
+                  <div class="wage5d">
+                    <h1 style="font-size: small;color: grey;"> Days Payable</h1>
+                    <h2 style="font-size: small;"><b>31</b></h2>
+                  </div>
+              </div><!--wage5 end-->
+              </div><!--paycard end-->
+          </div><!--original  end-->
+                                     </section><!--SA PAGE END-->
+             <section class="summary"style="display:none;"> <!-- this one is for summary page -->
+                 <div class="headersummary">
+                   <h1 style="font-size: medium;">Ramkumar</h1> 
+                 </div>
+                 <div class="M">
+
+             
+                 <div class="m">
+                  <h1 style="font-size: larger;margin-top: 10px;margin-left: 10px;padding-top: 5px;">Who is off today</h1>
+                  <div class="o">No employee is off todayy</div>
+                 </div>
+                 <div class="n">
+                  <h1 style="font-size: larger;margin-top: 10px;margin-left: 10px;padding-top: 5px;">Not in yet today</h1>
+                  <div class="p">All employees are already in</div>
+                 </div>   
+               
+                
+                
+                </div>
+                <div class="q">
+                  <div class="r">
+                     <div class="verline1"></div>
+                     <h1 style="font-size: small;">NO of employees are late today</h1>
+                     <h1>4 <a href="#"onclick="openkeerthana()"id="avvapappu">view employees</a> </h1> 
+                    
+                  </div>
+                  <div class="s">
+                    <div class="verline2"></div>
+                    <h1 style="font-size: small;"> Late Arrivals Today</h1>
+                    <h1>0</h1>
+                  </div>
+                  <div class="t">
+                    <div class="verline3"></div>
+                    <h1 style="font-size: small;">Work form home/On duty today</h1>
+                    <h1>0</h1>
+                  </div>
+                  <div class="u">
+                    <div class="verline4"></div>
+                    <h1 style="font-size: small;">Remote clock ins today</h1>
+                    <h1>1<a href="#">view employees</a></h1>
+                    
+                  </div>
+               
+               </div>
+               <h1>Ramkumar</h1>
+               <div class="avvapappu"style="display:none;"><!--view emplyees pop up--><!---->
+                     <div class="hetty">
+                        <h1 style="font-size: small;color: white;margin-left: 20px;">View Employees</h1>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMUAAAEACAMAAAA0tEJxAAAAdVBMVEX///8AAAD39/fx8fEhISEYGBjq6urb29saGhoeHh7X19f8/Pz29vZkZGR2dnaNjY2ampq7u7vCwsLR0dGAgIAsLCxJSUltbW2Tk5OhoaGnp6eurq7KysqHh4c2NjZxcXFaWlo9PT1eXl4QEBBHR0dTU1MwMDDqxcCEAAAEF0lEQVR4nO2c6XbiMAyFa6ALLd33HbrM+z/ilGE4LFdNFCIpsc/9fieKbwi2NntvjxBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCMmOYaa2N5ikUzfbp2ngZnuDwX5K906271PaD5ExF5HSmYvts7npowAZg6P0jxsH2zcL0/4yBuP0n1dz269L02NnGSsRKZ0b2z5fmfaVMRilNR5MbT+smx45ytgUkdKFoe2LTdN+MoZbIlJ6NLP9uG165LX8HW8/KaUnI9NPaPrYyDRwiM96NjH8jIYPTQyLOMm4DBUhflSXrY0KItw+pwWCjKuWJl/Q5LXJWCu4xme+tDIoiGhncNentnl1wltp++OquLKUIYho/0dTIcjY9d/oMlsoMZsZ3RYgFUYyBBFWzoAKk8W2axGijIOGJg7QhJ13qQSc0KYyBBGWnr6SljKGeLtt1KXkAscxUd8siLAP5FU8wEA+tTImn3CvR1JFxTkMRZkSW+S0NvBJcKlAGap4eTt+/+HdfawV3MBwbk9qbzq5hbu8MqZKBBl1twgi/LLXSs5gSG81d7zBHdOAcdZwD4OaVV4/g+u/g0ZaCcq4q7j6q58i5pUTvYy7RpJDmarf73fDzy8UlPEhXvcB19VNBaHgO5YmT/z0/oSPtBL83nEhw2lAsUTGgjK2nYp3uGLUNxHSFLrp4OHy+BlUFG7EDIa57myjq9IgGokEXYtV4POKIsK6DJohuHnLCia68H0V8SMD44ZFLI1RYeOMSSBC+DPPawgReo9FiKHoY/ukTzhCWgDXCd96lwVDlJGfCDHTtIVz0c6GOhnuRTsbhAzsGgFFOxuqZGQjokpGSOXRit9khBXtbBDqRPmJkGVkJ6IMFUV8UbKIQqaorGQUseoV4YFUi8jEGyzCM68XkUGUNMHAG3PMfZdRRPagiEyOkBz8NavW29TgHopYJmrzSdMK2eZV0lxImfdTxqxChCRD3cATCYqoq8JEbAZrSH1hDzOd475VxDRFVlz+elbYK6JSjFX7qfK6HrUeYEuBvoPiK3SkFRTRzdKsQWqm/t1CwQm0aZfXNGSclVh03MkNPIHs0MTZv+5H9FUVC5lQFu+0ExVbClS+0QlGhB12BQuN5jt3aHfWZo6BqNrZFurJHckQoml94CMkfKz37qtomdkQMogd7CIRdmTnt6OniN1VRex089t1mN/WyW5lFLEb13SDd1fbu40323cjI+LEAPeamcPpDYZ/MyXCpJLfSRpOM2MRR7PEynD0GATf0ktG6MlLY7ciTRGnYAWeSOZ8sFoJp8MFndQXcOBgCacmLmU4nmAZdxBn9qeJ/sgo4WTXQk7ZJYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQuz4C3osKzA+KjQeAAAAAElFTkSuQmCC" alt=""onclick="closekeerthana()">
+                     </div> 
+                     <div class="avvatable">
+                          <div class="avvatableseacrh">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                            </svg>
+                            <h1 style="font-size: x-small;">Search</h1>
+                          </div>
+                          <div class="avvatablesearch1">
+                             <h1 style="font-size: small;">Table4</h1>
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                              <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+                              <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                              <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+                            </svg>
+                          </div>
+                          <table>
+                            <thead >
+                              <tr style="font-size: small;">
+                                <th>EMPLOYEE</th>
+                                <th>DEPARTMENT</th>
+                                <th>SUB DEPARTMENT</th>
+                                <th>LOCATION</th>
+                                <th>TITLE</th>
+                                <th>CLOCK-IN-TIME</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td><span>SRIDEVI</span><br><span>NI009</span></td>
+                                <td>Professional Service</td>
+                                <td>Not Available</td>
+                                <td>Work from Home</td>
+                                <td>Technical Consultant</td>
+                                <td>9.50 AM</td>
+                              </tr>
+                              <tr>
+                                <td><span>NIRANJANA K</span><br><span>NI0016</span></td>
+                                <td>Professional Service</td>
+                                <td>Not Available</td>
+                                <td>Kovilpatti</td>
+                                <td>Jr Technical Consultant</td>
+                                <td>9.54 AM</td>
+                              </tr>
+                              <tr>
+                                <td><span>NIRANJANA K</span><br><span>NI0016</span></td>
+                                <td>Professional Service</td>
+                                <td>Not Available</td>
+                                <td>Kovilpatti</td>
+                                <td>Jr Technical Consultant</td>
+                                <td>9.54 AM</td>
+                              </tr>
+                              <tr>
+                                <td><span>NIRANJANA K</span><br><span>NI0016</span></td>
+                                <td>Professional Service</td>
+                                <td>Not Available</td>
+                                <td>Kovilpatti</td>
+                                <td>Jr Technical Consultant</td>
+                                <td>9.54 AM</td>
+                              </tr>
+                              
+                            </tbody>
+                          </table>
+                          <div class="push">
+                            <h1 style="font-size:small;color: grey;padding-top: 15px;padding-left: 70%;">1to4 of 4</h1>
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5"/>
+                            </svg>
+                            <h1 style="font-size: small;color: grey;">Page1of1</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                            </svg> -->
+                          </div>
+                          
+                          
+                     </div>    
+                     
+
+               </div><!--view employees pop up end-->
+       
+          
+            </section><!--Summary page end-->
+
+
+
+        
+                       
+     <script src="script1.js"></script> 
+     <script src="script2.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

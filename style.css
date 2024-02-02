@@ -1,0 +1,440 @@
+*{
+  
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: url(https://cdn.kekastatic.net/login/v/M165_2023.12.08.1/images/login-image.jpg);
+}
+#A{
+  height: 100%;
+  width: 30rem;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  position: fixed;
+  /* overflow: hidden; */
+
+}
+ #input {
+  width: 80%;
+  height: 7%;
+  margin-left: 30px;
+  margin-top: 60px;
+  box-sizing: border-box;
+  border-color: black;
+  border-radius: 4px;
+ 
+}
+#input1{
+  width: 80%;
+  height: 6%;
+  margin-left: 30px;
+  margin-top: 10px;
+  border-color: black;
+  border-radius: 4px;
+} 
+
+/* #input{
+  width: 80%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px solid blue;
+  cursor:pointer;
+}
+#input1{
+ width: 80%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px solid blue;
+  cursor:pointer;
+  margin-top: 10px;
+} */
+
+.two{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+
+ }
+ #captchA{
+  box-sizing: border-box;
+  width: 100%;
+  height: 160%;
+  margin-right: 40px;
+  margin-left: 50px;
+  border-color: black;
+  border-radius: 4px;
+  border-style: none;
+  /* padding-left: 50px; */
+  
+ }
+ .captchA{
+  padding-left: 50px;
+ }
+ #captchB{
+  box-sizing: border-box;
+  width: 100%;
+  height: 160%;
+  margin-right: 20px;
+   /* margin-left: -30px;  */
+  border-color: black;
+  border-radius: 4px;
+  
+ }
+ .refresh-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px; /* Adjust spacing as needed */
+  cursor: pointer; /* Indicate interactivity */
+  margin-left: 50px;
+}
+.btn{
+  width: 80%;
+  height: 40px;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  margin-left: 30px;
+  border-radius: 4px;
+  margin-top: 25px;
+}
+.login-card {
+  background-color: #fff; /* White background */
+  height: 90%;
+  width: 600px; /* Adjust width as needed */
+  padding: 30px;
+  border-radius: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 0;
+  
+  
+ 
+  
+   margin: 50px  ; /* Center the card */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  
+}
+.kiku{
+  margin-left: 30px;
+  margin-top: 40px;
+}
+#input{
+  width: 80%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px solid blue;
+  cursor:pointer;
+}
+#input1{
+ width: 80%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px solid blue;
+  cursor:pointer;
+  margin-top: 10px;
+}
+.ram{
+  width: 80%;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 20px solid blue
+  ;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: white;
+  cursor: pointer;
+  
+}
+
+#ram{
+ padding-bottom: 30px;
+}
+.sent{
+  font-size: small;
+}
+.microsft{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 2px solid black
+  ;
+  width: 40%;
+  border: 1px solid #ccc; /* Adjust color and width as needed */
+  box-sizing: border-box; /* Include padding and borders in width calculations */
+  padding: 10px; /* Optional padding for spacing */
+  cursor: pointer;
+  margin-right: 20px;
+  justify-content: space-between;
+
+}
+.logo img{
+  padding-left: 40px;
+  margin-right: 20px;
+}
+.logo img .send h1{
+  display: flex;
+  flex-direction: column;
+}
+.google{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 2px solid black
+  ;
+  width: 40%;
+  border: 1px solid #ccc; /* Adjust color and width as needed */
+box-sizing: border-box; /* Include padding and borders in width calculations */
+padding: 10px; /* Optional padding for spacing */
+cursor: pointer;
+}
+.whole{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.keka{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 2px solid black
+  ;
+  width: 40%;
+  border: 1px solid #ccc; /* Adjust color and width as needed */
+box-sizing: border-box; /* Include padding and borders in width calculations */
+padding: 10px; /* Optional padding for spacing */
+cursor: pointer;
+margin-top: 20px;
+
+}
+
+#sent{
+  font-size:x-small;
+}
+#sent #send{
+  display: flex;
+  flex-direction: column;
+}
+#yukesh{
+  font-size: small;
+  display: flex;
+  justify-content: center;
+ 
+}
+.A{
+  display: flex;
+  flex-direction: row;
+}
+.send{
+  font-size: x-small;
+}
+.A {
+ /* Include padding and borders in width calculations */
+ /* padding: 15px; /* Optional padding for spacing */
+  display: flex; /* Arrange elements horizontally */
+  align-items: center; /* Vertically center content */
+  border-radius: 5px; /* Optional rounded corners */
+  width: 30%;
+  margin-right: 20px;
+}
+
+.logo {
+  margin-right: 10px; /* Adjust spacing as needed */
+}
+
+.text {
+  text-align: center; /* Center the text within the column */
+}
+
+#send{
+  font-size: x-small;
+}
+
+#error{
+font-size: x-small;
+}#ram{
+font-size: small;               
+}
+.V {
+display: flex; /* Arrange elements horizontally */
+justify-content: space-evenly; /* Distribute elements with space in between */
+align-items: center; /* Vertically center content */
+margin-left: 30px;
+}
+.super{
+display: flex;
+flex-direction: row;
+margin-top: 160px;
+margin-bottom: 20px;
+}
+.U img{
+margin-right: 20px;
+}
+.down{
+position: inherit;
+margin-top: 40px;
+margin-bottom: 0%;
+}
+.super {
+margin-bottom: 10px; /* Reduce bottom margin */
+}
+
+.down {
+padding-top: 0; /* Remove top padding */
+}
+#rrr{
+position: inherit;
+font-size: x-small;
+
+padding-left: 190px;
+
+}
+#yenna{
+font-size: small;
+}
+.logo, .sent {
+display: inline-block;
+vertical-align: middle; /* Vertically align elements */
+}
+
+.microsoft {
+text-align: center; /* Center elements horizontally */
+}
+.microsoft {
+display: flex;
+align-items: center; /* Vertically center elements */
+justify-content: space-between; /* Distribute elements with space at edges */
+width: 100%; /* Ensure full width */
+}
+/* Modern browsers: */
+.microsoft {
+gap: 20px; /* Set spacing between elements */
+}
+
+/* Fallback for older browsers: */
+.logo, .sent {
+margin-right: 10px; /* Adjust as needed */
+}
+.microsoft {
+margin: auto; /* Center horizontally within parent */
+}
+
+/* Alternatively: */
+.microsoft {
+justify-content: center; /* Center elements within flex container */
+}
+
+
+.MICROSOFT img{
+  width: 15px;
+  height: 15px;
+}
+.MICROSOFT {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black; /* Border color */
+  padding: 10px; /* Padding inside the box */
+  text-align: center; /* Center text horizontally */
+  max-width: 200px; /* Set a maximum width for the box */
+  margin: 0 auto; /* Center the box horizontally */
+  width: 80px;
+  position: absolute;
+  left: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-top: 60px;
+  
+}
+
+
+.GOOGLE img{
+  width: 20px;
+  height: 15px;
+}
+.GOOGLE {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black; /* Border color */
+  padding: 10px; /* Padding inside the box */
+  text-align: center; /* Center text horizontally */
+  max-width: 200px; /* Set a maximum width for the box */
+  margin: 0 auto; /* Center the box horizontally */
+  width: 80px;
+  position: absolute;
+ left: 40%;
+ margin-top: 20px;
+ cursor: pointer;
+  
+  
+}
+
+.KEKA img{
+  width: 20px;
+  height: 15px;
+}
+.KEKA {
+  display: flex;
+  flex-direction: row;
+   border: 1px solid black; /* Border color */
+  padding: 10px; /* Padding inside the box */
+  text-align: center; /* Center text horizontally */
+  max-width: 200px; /* Set a maximum width for the box */
+  margin: 0 auto; /* Center the box horizontally */
+  width: 80px;
+  position: absolute;
+  top: 55%;
+  left: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+  
+  
+}
+#adang{
+  margin-top: 240px;
+  margin-left: 30px;
+ 
+}
+
+#darlsdeep{
+  width: 80px;
+  display: block;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+h4{
+  margin-left: 30%;
+  
+ 
+}
+.pran {
+  padding-bottom: 40px;
+  /* display: flex; */
+  /* flex-direction: row;
+  align-items: center; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: -40px;
+  margin-top: 30px;
+}
+.emma{
+  padding-left: -20px;
+}
+.logg{
+  padding-top: 70px;
+  padding-left: 30px;
+}
+/* .KEKA{
+
+} */
